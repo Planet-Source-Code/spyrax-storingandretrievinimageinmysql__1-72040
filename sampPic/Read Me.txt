@@ -1,0 +1,14 @@
+Create a Database Name it as samppic
+then a table, name it as tblfiles
+                       <Field name>     <Datatype>
+			file_id		smallint, not null, auto inc
+			file_name	varchar(54)
+			file_size	mediumint(8)
+			file		mediumblob, not null 
+			idnum		text
+			fname		text
+			gname		text
+			mname		text
+
+Use MySQL 4.1 and MySQL ODBC 3.52 driver
+
